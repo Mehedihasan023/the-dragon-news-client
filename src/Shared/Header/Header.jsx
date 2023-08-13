@@ -16,12 +16,12 @@ const Header = () => {
             <div className='d-flex bg-light py-3'>
                 <Button className='px-3 mx-3' variant="danger">Latest</Button>
                 <Marquee className='text-black' speed={70}>
-                    Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...
+                    Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as Match Highlights: Germany vs Spain — as it happened   !   Match Highlights: Germany vs Spain as...
                 </Marquee>
             </div>
 
 
-            <Navbar collapseOnSelect expand="lg" className="" bg="white" data-bs-theme="light" >
+            <Navbar collapseOnSelect expand="lg" className="" bg="white" data-bs-theme="" >
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
