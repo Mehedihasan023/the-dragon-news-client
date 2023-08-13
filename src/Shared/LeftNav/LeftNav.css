@@ -1,0 +1,20 @@
+.active {
+    width: 267px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #E7E7E7;
+    background: #E7E7E7;
+    text-decoration: none;
+    padding:10px;
+}
+
+.not-active {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+
+}

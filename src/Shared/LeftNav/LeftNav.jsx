@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-
+import { Link, NavLink } from 'react-router-dom';
+import './LeftNav.css';
 const LeftNav = () => {
     const [categories, setCategories] = useState([]);
 
@@ -15,15 +15,29 @@ const LeftNav = () => {
 
     return (
         <div>
-            <h2>All Category</h2>
+            <h3>All Category</h3>
          <div className='ps-4'>
                 {
                     categories.map(category => <p
                         key={category.id}>
-                        <Link to={`/category/${category.id}`} className='text-decoration-none text-black'>{category.name}</Link>
+                   
+                        <NavLink
+                            to={`/category/${category.id}`}
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "active"
+                                        : "not-active"
+                            }
+                        >
+                            {category.name}
+                        </NavLink>
+
+
+
                     </p>)
                 }
          </div>
+         
         </div>
     );
 };
