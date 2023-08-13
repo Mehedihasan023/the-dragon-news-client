@@ -9,7 +9,7 @@ const Category = () => {
 
     return (
         <div>
-            <h3>Dragon News Home</h3>
+            {id && <h4>This Categorgy News {categoryNews.length}</h4> }
 
             {
                 categoryNews.map(news => <NewsCard

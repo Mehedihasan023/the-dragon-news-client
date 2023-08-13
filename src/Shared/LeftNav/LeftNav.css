@@ -1,11 +1,9 @@
 .active {
-    width: 267px;
-    height: 64px;
     border-radius: 5px;
-    border: 1px solid #E7E7E7;
     background: #E7E7E7;
     text-decoration: none;
-    padding:10px;
+    padding:5px;
+    margin-right: 3px;
 }
 
 .not-active {

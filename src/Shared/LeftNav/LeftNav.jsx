@@ -51,10 +51,13 @@ const LeftNav = () => {
                             <Card.Img variant="top" src={first} />
                             <Card.Body >
                                 <Card.Title>Bayern Slams Authorities Over Flight Delay to Club World Cup</Card.Title>
-                                <Card.Text>
-                                    <div className='d-flex '><h6>Sports</h6> <span className='d-flex'><FaRegCalendar className='me-2 ms-4 mt-1'></FaRegCalendar><p>Jan 4, 2022</p></span></div>
 
-                                </Card.Text>
+                                <div className='d-flex '>
+                                    <h6>Sports</h6>
+                                    <span className='d-flex'><FaRegCalendar className='me-2 ms-4 mt-1'></FaRegCalendar><p>Jan 4, 2022</p></span>
+                                </div>
+
+
                             </Card.Body>
                         </Card>
                     </Col>
@@ -63,9 +66,12 @@ const LeftNav = () => {
                             <Card.Img variant="top" src={second} />
                             <Card.Body>
                                 <Card.Title>Bayern Slams Authorities Over Flight Delay to Club World Cup</Card.Title>
-                                <Card.Text>
-                                    <div className='d-flex '><h6>Sports</h6> <span className='d-flex'><FaRegCalendar className='me-2 ms-4 mt-1'></FaRegCalendar><p>Jan 4, 2022</p></span></div>
-                                </Card.Text>
+
+                                <div className='d-flex '>
+                                    <h6>Sports</h6>
+                                    <span className='d-flex'><FaRegCalendar className='me-2 ms-4 mt-1'></FaRegCalendar><p>Jan 4, 2022</p></span>
+                                </div>
+
                             </Card.Body>
                         </Card>
                     </Col>
@@ -74,9 +80,12 @@ const LeftNav = () => {
                             <Card.Img variant="top" src={third} />
                             <Card.Body>
                                 <Card.Title>Bayern Slams Authorities Over Flight Delay to Club World Cup</Card.Title>
-                                <Card.Text>
-                                    <div className='d-flex '><h6>Sports</h6> <span className='d-flex'><FaRegCalendar className='me-2 ms-4 mt-1'></FaRegCalendar><p>Jan 4, 2022</p></span></div>
-                                </Card.Text>
+
+                                <div className='d-flex '>
+                                    <h6>Sports</h6>
+                                    <span className='d-flex'><FaRegCalendar className='me-2 ms-4 mt-1'></FaRegCalendar><p>Jan 4, 2022</p></span>
+                                </div>
+
                             </Card.Body>
                         </Card>
                     </Col>
