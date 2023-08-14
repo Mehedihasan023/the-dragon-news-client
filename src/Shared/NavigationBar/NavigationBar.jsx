@@ -6,7 +6,12 @@ import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider'
 import { FaUserCircle } from 'react-icons/fa';
 const Navigationbar = () => {
-    const { user } = useContext(AuthContext)
+    const { user,logOut } = useContext(AuthContext);
+    const handleLogOut = ()=>{
+        logOut()
+        .then()
+        .catch(error=>console.log(error))
+    }
     return (
         <Container>
 
@@ -26,7 +31,7 @@ const Navigationbar = () => {
 
                             }
                             {
-                                user ? <Button variant="secondary">Logout</Button> :
+                                user ? <Button onClick={handleLogOut} variant="secondary">Logout</Button> :
 
                                     <Link to='/login' >
                                         <Button variant="secondary">Login</Button>
