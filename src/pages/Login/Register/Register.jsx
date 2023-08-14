@@ -14,12 +14,9 @@ const handleRegister =event =>{
   const name = form.name.value;
   const photo = form.photo.value;
 
-  console.log(name,email,photo,password);
-
   createUser(email, password)
   .then(result=>{
     const createdUser = result.user;
-    console.log(createdUser)
   })
   .catch(error=>console.error(error))
 }
